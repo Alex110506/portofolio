@@ -79,51 +79,70 @@ const blogPosts = [
     id: 1,
     date: "Sep 2, 2025",
     title:
-      "TypeScript Explained: What It Is, Why It Matters, and How to Master It",
-    image: "/images/blog1.png",
-    link: "https://jsmastery.com/blog/typescript-explained-what-it-is-why-it-matters-and-how-to-master-it",
+      "Bronze medal and 10th place nationally at InfoEducatie National Olympiad, Web Development section",
+    image: "/images/infoed.png",
   },
   {
     id: 2,
     date: "Aug 28, 2025",
-    title: "The Ultimate Guide to Mastering Three.js for 3D Development",
-    image: "/images/blog2.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-three-js-for-3d-development",
+    title: "Participation at National Informatics Olympiad in Romania, 55th place out of 100 nationally and 1st place at county phase",
+    image: "/images/Logo.png",
   },
   {
     id: 3,
     date: "Aug 15, 2025",
-    title: "The Ultimate Guide to Mastering GSAP Animations",
-    image: "/images/blog3.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-gsap-animations",
+    title: "Bronze Medal at National Information Technology Olympiad",
+    image: "/images/oti.jpg",
+  },
+  {
+    id: 4,
+    date: "Aug 15, 2025",
+    title: "2nd place at UniHack hackathon in Timisoara on the Private Services Section",
+    image: "/images/images.jpeg",
+  },
+  {
+    id: 5,
+    date: "Aug 15, 2025",
+    title: "27th place at CCC int the Web section",
+    image: "/images/ccc.jpeg",
+  },
+  {
+    id: 6,
+    date: "Aug 15, 2025",
+    title: "3rd place at RCPC in University's leaderboard and 48th place nationally",
+    image: "/images/icpc.png",
   },
 ];
 
 const techStack = [
   {
     category: "Frontend",
-    items: ["React.js", "Next.js", "TypeScript"],
-  },
-  {
-    category: "Mobile",
-    items: ["React Native", "Expo"],
+    items: ["React.js", "TypeScript", "JavaScript"],
   },
   {
     category: "Styling",
-    items: ["Tailwind CSS", "Sass", "CSS"],
+    items: ["Tailwind CSS", "CSS"],
   },
   {
     category: "Backend",
-    items: ["Node.js", "Express", "NestJS", "Hono"],
+    items: ["Node.js", "Express"],
   },
   {
     category: "Database",
-    items: ["MongoDB", "PostgreSQL"],
+    items: ["MongoDB", "MySQL"],
+  },
+  {
+    category: "DSA",
+    items: ["C++"],
   },
   {
     category: "Dev Tools",
-    items: ["Git", "GitHub", "Docker"],
+    items: ["Git", "GitHub", "Docker", "Postman", "Figma"],
   },
+  {
+    category:"Others",
+    items:["Java","C#","Php","Python"]
+  }
 ];
 
 const socials = [
@@ -132,28 +151,14 @@ const socials = [
     text: "Github",
     icon: "/icons/github.svg",
     bg: "#f4656b",
-    link: "https://github.com/JavaScript-Mastery-Pro",
-  },
-  {
-    id: 2,
-    text: "Platform",
-    icon: "/icons/atom.svg",
-    bg: "#4bcb63",
-    link: "https://jsmastery.com/",
-  },
-  {
-    id: 3,
-    text: "Twitter/X",
-    icon: "/icons/twitter.svg",
-    bg: "#ff866b",
-    link: "https://x.com/jsmasterypro",
+    link: "https://github.com/Alex110506",
   },
   {
     id: 4,
     text: "LinkedIn",
     icon: "/icons/linkedin.svg",
     bg: "#05b6f6",
-    link: "https://www.linkedin.com/company/javascriptmastery/posts/?feedView=all",
+    link: "https://www.linkedin.com/in/alexandru-r%C4%83dulescu-12b115264/",
   },
 ];
 
