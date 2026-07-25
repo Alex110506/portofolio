@@ -12,7 +12,7 @@ export default function Hero() {
               <span className="font-mono text-xs font-semibold text-accent">● OPEN TO WORK</span>
             </div>
             <h1 className="font-display text-[clamp(40px,11.5vw,170px)] uppercase leading-[.88] tracking-[-.02em] sm:text-[clamp(56px,10.5vw,170px)]">
-              <span data-reveal className="block text-[clamp(80px,14.5vw,210px)] sm:text-[clamp(90px,15.5vw,230px)]">
+              <span data-reveal className="block text-[clamp(100px,16.5vw,230px)] sm:text-[clamp(110px,16.5vw,250px)]">
                 Alex
               </span>
               <span data-reveal className="block text-accent">
@@ -21,10 +21,9 @@ export default function Hero() {
             </h1>
           </div>
           <div className="mt-9 flex flex-wrap items-end justify-between gap-6">
-            <p data-reveal className="max-w-[520px] text-pretty text-[19px] font-medium leading-[1.45]">
+            <p data-reveal className="max-w-[520px] text-pretty text-[20px] font-medium leading-[1.45]">
               I build full-stack web apps and AI tooling that ship. SWE intern at <strong>Nokia</strong>, AI/ML
-              trainee at <strong>Bitdefender</strong>, and <strong>1st place</strong> at iTEC 2026 — with a shelf
-              of olympiad medals behind it.
+              trainee at <strong>Bitdefender</strong> - with a shelf of olympiad medals and hackathon prizes behind it.
             </p>
             <div className="flex flex-none flex-col items-end gap-2.5">
               <a
@@ -45,15 +44,15 @@ export default function Hero() {
             </div>
           </div>
         </div>
-        <div className="relative min-h-[420px] bg-accent">
+        <div className="relative min-h-[420px]">
           <img
             src="/assets/alex.jpg"
             alt="Alexandru Rădulescu"
-            className="absolute inset-0 h-full w-full object-cover object-[50%_20%] [filter:var(--pf)]"
+            className="absolute inset-0 h-full w-full scale-100 object-cover object-[20%_30%] "
           />
           <div
             aria-hidden="true"
-            className="pointer-events-none absolute inset-0 bg-accent opacity-[var(--po)] mix-blend-multiply"
+            className="pointer-events-none absolute inset-0 bg-accent opacity-20 mix-blend-multiply"
           />
           <div className="absolute inset-x-0 bottom-0 flex justify-between bg-ink/85 px-3.5 py-2.5 font-mono text-[11px] text-white">
             <span>A PHOTO OF ME:)</span>

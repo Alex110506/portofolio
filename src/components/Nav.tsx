@@ -13,7 +13,7 @@ export default function Nav() {
   const [open, setOpen] = useState(false)
 
   return (
-    <header className="fixed inset-x-0 top-0 z-50 flex h-[52px] items-stretch border-b-[3px] border-ink bg-cream">
+    <header className="fixed inset-x-0 top-0 z-50 flex h-[56px] items-stretch border-b-[3px] border-ink bg-cream">
       <a
         href="#top"
         className="flex flex-none items-center border-r-[3px] border-ink bg-accent px-5 font-display text-[15px] tracking-[.02em] text-white hover:text-white"
