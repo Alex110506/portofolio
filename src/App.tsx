@@ -9,6 +9,7 @@ import Awards from './components/Awards'
 import Terminal from './components/Terminal'
 import Footer from './components/Footer'
 import { useReveal } from './hooks/useReveal'
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 export default function App() {
   useReveal()
@@ -28,6 +29,7 @@ export default function App() {
         <Terminal />
       </main>
       <Footer />
+      <SpeedInsights/>
     </>
   )
 }
