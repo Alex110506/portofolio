@@ -22,8 +22,8 @@ export default function Hero() {
           </div>
           <div className="mt-9 flex flex-wrap items-end justify-between gap-6">
             <p data-reveal className="max-w-[520px] text-pretty text-[20px] font-medium leading-[1.45]">
-              I build full-stack web apps and AI tooling that ship. SWE intern at <strong>Nokia</strong>, AI/ML
-              trainee at <strong>Bitdefender</strong> - with a shelf of olympiad medals and hackathon prizes behind it.
+              I build full-stack web apps and AI tooling that ship. Software Engineer intern at <strong>Nokia</strong>, AI/ML
+              trainee at <strong>Bitdefender</strong> - with many olympiad medals and hackathon prizes.
             </p>
             <div className="flex flex-none flex-col items-end gap-2.5">
               <a
